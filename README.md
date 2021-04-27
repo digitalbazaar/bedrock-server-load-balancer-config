@@ -1,1 +1,1 @@
-# bedrock-module-template-http
+# bedrock-server-load-balancer-config

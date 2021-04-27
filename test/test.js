@@ -4,9 +4,11 @@
 'use strict';
 
 const bedrock = require('bedrock');
+require('bedrock-express');
 require('bedrock-https-agent');
-require('bedrock-mongodb');
-require('bedrock-module-template-http');
+require('bedrock-server-load-balancer-config');
+
+require('./mock-http');
 
 require('bedrock-test');
 bedrock.start();
