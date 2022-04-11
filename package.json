@@ -1,8 +1,9 @@
 {
-  "name": "bedrock-server-load-balancer-config",
+  "name": "@bedrock/server-load-balancer-config",
   "version": "1.0.1-0",
+  "type": "module",
   "description": "Bedrock HTTP API",
-  "main": "./lib",
+  "main": "./lib/index.js",
   "scripts": {
     "lint": "eslint ."
   },
@@ -22,21 +23,21 @@
     "url": "https://github.com/digitalbazaar/bedrock-server-load-balancer-config/issues"
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-server-load-balancer-config",
-  "dependencies": {
-    "esm": "^3.2.25"
-  },
+  "dependencies": {},
   "peerDependencies": {
-    "bedrock": "^4.1.1",
-    "bedrock-server": "^2.7.0"
+    "@bedrock": "^5.0.0",
+    "@bedrock/server": "^4.0.0"
   },
   "directories": {
     "lib": "./lib"
   },
   "devDependencies": {
-    "eslint": "^7.14.0",
-    "eslint-config-digitalbazaar": "^2.6.1"
+    "eslint": "^7.32.0",
+    "eslint-config-digitalbazaar": "^2.8.0",
+    "eslint-plugin-jsdoc": "^37.9.7",
+    "jsdoc-to-markdown": "^7.1.1"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   }
 }
