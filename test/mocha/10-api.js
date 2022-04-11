@@ -1,11 +1,11 @@
-/*
- * Copyright (c) 2020-2021 Digital Bazaar, Inc. All rights reserved.
+/*!
+ * Copyright (c) 2020-2022 Digital Bazaar, Inc. All rights reserved.
  */
-'use strict';
-
-const {config} = require('bedrock');
+import {config} from '@bedrock/core';
+import {agent} from '@bedrock/https-agent';
+import {createRequire} from 'module';
+const require = createRequire(import.meta.url);
 const {httpClient} = require('@digitalbazaar/http-client');
-const {agent} = require('bedrock-https-agent');
 
 describe('HTTP API', () => {
   it('should serve a request', async () => {
