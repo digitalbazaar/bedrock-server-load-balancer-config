@@ -1,6 +1,6 @@
 # bedrock-server-load-balancer-config ChangeLog
 
-## 2.0.0 - 2022-04-xx
+## 2.0.0 - 2022-04-11
 
 ### Changed
 - **BREAKING**: Rename package to `@bedrock/server-load-balancer-config`.
