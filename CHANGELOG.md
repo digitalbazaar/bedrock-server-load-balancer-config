@@ -1,6 +1,6 @@
 # bedrock-server-load-balancer-config ChangeLog
 
-## 3.0.0 - 2022-05-xx
+## 3.0.0 - 2022-05-01
 
 ### Changed
 - **BREAKING**: Update peer deps:
