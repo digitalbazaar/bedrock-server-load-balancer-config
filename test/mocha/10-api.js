@@ -3,9 +3,7 @@
  */
 import {config} from '@bedrock/core';
 import {agent} from '@bedrock/https-agent';
-import {createRequire} from 'module';
-const require = createRequire(import.meta.url);
-const {httpClient} = require('@digitalbazaar/http-client');
+import {httpClient} from '@digitalbazaar/http-client';
 
 describe('HTTP API', () => {
   it('should serve a request', async () => {

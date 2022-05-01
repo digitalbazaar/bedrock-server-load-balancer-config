@@ -1,5 +1,12 @@
 # bedrock-server-load-balancer-config ChangeLog
 
+## 3.0.0 - 2022-05-xx
+
+### Changed
+- **BREAKING**: Update peer deps:
+  - `@bedrock/core@6`
+  - `@bedrock/server@5`.
+
 ## 2.0.0 - 2022-04-11
 
 ### Changed
